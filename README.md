@@ -6,7 +6,7 @@ modal widget.
 ## Installation
 To install use the following composer command:
 
-    composer require yireo/test-mymodal
+    composer require yireo/test-mymodal:dev-master
 
 Next enable the module:
 
