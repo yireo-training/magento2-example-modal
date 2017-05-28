@@ -1,7 +1,7 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:View/Layout:etc/page_configuration.xsd">
     <body>
         <referenceContainer name="main">
-            <block class="Yireo\MyModal\Block\Example" template="example.phtml" />
+            <block class="Yireo\ExampleModal\Block\Example" template="example.phtml" />
         </referenceContainer>
     </body>
 </page>

@@ -1,7 +1,7 @@
 var config = {
     map: {
         '*': {
-            'mymodal': 'Yireo_MyModal/js/mymodal'
+            'example-modal': 'Yireo_ExampleModal/js/example-modal'
         }
     }
 };
