@@ -1,7 +1,7 @@
 define([
         "jquery", "Magento_Ui/js/modal/modal"
     ], function($){
-        ExampleModal = {
+        var ExampleModal = {
             initModal: function(config, element) {
                 $target = $(config.target);
                 $target.modal();
@@ -11,8 +11,9 @@ define([
                 });
             }
         };
+
         return {
-            example-modal: ExampleModal.initModal
+            'example-modal': ExampleModal.initModal
         };
     }
 );
